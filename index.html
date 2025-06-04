@@ -1,107 +1,211 @@
 <!DOCTYPE html>
-<html>
-    <span></span>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="ICT KENYA" content="BEST ICT TECHNITIAN IN KENYA">
-    <title>  DAVIANNTECH & INFORMATICS</title>
-    <header style="font-size: xx-large; text-align: center; color: #ecf00e;">
-        DAVIANNTECH & INFORMATICS
+<html lang="en">
 
-    </header>
-    <link rel="stylesheet" href="style.css">
-    <style >
-        body{
-            background-image: url('wallp.jpg');
-            background-repeat: no-repeat;
-            background-attachment: scroll;
-            background-position: center;
-            background-size: cover;
-        }
-    </style>
-    <body>
-        <br>
-        <center>
-<header>
-  <img src="logoAI.jpg" alt="DaviannTech Logo" height="300">
-</header>
-            <center>
-    <h6 style="color: rgb(241, 244, 245); text-align: center;font-size: xx-large; font-weight: 900;">
-        ================================<br>
-        <p style="color: rgb(18, 250, 10); font-size: xx-large; font-weight: 900;">=====<b>DAVIANNTECH</b>=====</p><br>
-        ================================<br>
-    </h6>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Best ICT Technician in Kenya">
+  <title>DaviannTech & Informatics</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      transition: all 0.3s ease-in-out;
+    }
 
-    <br>
-                <aside>
-    <center>
-    <img src="cv.jpg" alt="davianntech" title="This is an image of DAVIANNTECH CEO" height="700">
-   </center>
-                    </aside>
-                <section>
-    <p style="text-align: center; color: rgb(248, 245, 244);">
-I am <b>MR. CHEGE </b>you can call me<b>DAVID CHEGE</b> an <b>ICT TECHNICIAN </b>by profession. Having done all my course work and <b>passed</b>. <br>
-I have been working with various <i>IT companies</i> aroud <b>KENYA</b>. Furthermore, I have also been working as a<b> PRIVATE </b>technician.<br>
-Anything concerning technology I can be of help if you reach me.<br>
-Am competent in various fields. All computer informatics I can hadle them proffesionaly acoording to your specificaions<br>
-I classify my work as legit for what I do I do it with passion and love for that is what I do.<br> 
-My work is appealing.<br>
-I make sure that your needs are meet with the seriousness it requres for that is my work.
-    </p>
-                    </section>
-    <br>
-                <artical>
-<h3 style="color: rgb(240, 10, 22);">
-    MY FIELDS OF PROFFESONALITY:
-</h3>
-<p>
-   
-    <ol type="1" style="color: rgb(243, 247, 6);">
-        <li>DATA ENTRY</li>
-        <li>DATABASE ADMINISTRATOR</li>
-        <li>DATABASE DESIGNER</li>
-        <li>COMPUTER & LAPTOP REPAIR</li>
-        <li>GRAFIC DESIGN</li>
-        <li>ETHERNET INSTLLATION</li>
-        <li>CCTV INSTALLATION</li>
-        <li>ENVIRONMENT & WORKPLACE MANAGEMENT</li>
-        <li>SOFTWARE MANAGEMENT</li>
-        <li>OS MANAGEMENT</li>
-        <li>INTERNET & SERVER MANAGEMENT</li>
-        <li>PROGRAMMING</li>
-        <li>COMPUTER PACKANGES TRAINING</li>
-        <li>SLIDE DEVELOPMENT e.t.c</li>
+    body {
+      background: url('wallp.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #e0e0e0;
+      text-align: center;
+      padding: 20px;
+    }
+
+    body.dark-mode {
+      background-color: #0a0a0a;
+      color: #cccccc;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      color: #ecf00e;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .toggle-btn {
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: rgba(236, 240, 14, 0.8);
+      color: #000;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .toggle-btn:hover {
+      background-color: rgba(236, 240, 14, 1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #ecf00e;
+      margin-bottom: 10px;
+    }
+
+    .logo img {
+      height: 200px;
+      margin: 20px 0;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .section {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px auto;
+      max-width: 900px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 1s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h3 {
+      color: #fddb0f;
+      margin-bottom: 10px;
+    }
+
+    ol {
+      text-align: left;
+      margin: 0 auto;
+      max-width: 500px;
+      color: #e8e80b;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #ecf00e;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c3c608;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #ecf00e;
+      font-weight: 700;
+    }
+
+    .banner-img {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    .credits {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <button class="toggle-btn" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </nav>
+
+  <header>
+    <h1>DaviannTech & Informatics</h1>
+  </header>
+
+  <div class="logo">
+    <img src="logoAI.jpg" alt="DaviannTech Logo">
+  </div>
+
+  <div class="section" id="about">
+    <p>I am <strong>MR. CHEGE</strong>, also known as <strong>DAVID CHEGE</strong>, an <strong>ICT TECHNICIAN</strong> by profession. I have completed my coursework and passed. I have worked with various IT companies across <strong>KENYA</strong> and as a <strong>PRIVATE</strong> technician. I am passionate about technology and my work is always done professionally to meet your specific needs.</p>
+  </div>
+
+  <div class="section" id="services">
+    <h3>My Fields of Professionalism</h3>
+    <ol>
+      <li>Data Entry</li>
+      <li>Database Administration</li>
+      <li>Database Design</li>
+      <li>Computer & Laptop Repair</li>
+      <li>Graphic Design</li>
+      <li>Ethernet Installation</li>
+      <li>CCTV Installation</li>
+      <li>Environment & Workplace Management</li>
+      <li>Software Management</li>
+      <li>Operating System Management</li>
+      <li>Internet & Server Management</li>
+      <li>Programming</li>
+      <li>Computer Packages Training</li>
+      <li>Slide Development, etc.</li>
     </ol>
-<p style="text-align: center; color: #0ef03f;">
-    <b>CONTACT ME VIA</b> <br>
-    WHATSAPP NO. <b>0791 367540</b>
-    <br>
-    <button>
-    <a href="https://wa.me/+254791367540" title="CONTACT DAVIANNTECH VIA WHATSAPP" target="_blank" style="color: rgb(7, 7, 7);">WHATSAPP</a>
-</button>
-    <br>
- <b><i>davidchege974@gmail.com</i></b> 
- <br>
- <button style="color: blueviolet;">
-  <a href="mailto: davidchege974@gmail.com">davidchege974@gmail.com</a>
-</button>
-</p>
-                    </artical>
+  </div>
 
-   
-</p>
-    
-    <footer>
-        <p style="color: blue; text-align: center;font-size: xx-large; font-weight: 900;">
-            <hr>
-            <p style="color: rgb(218, 241, 10); font-size: xx-large; text-align: center; font-weight: 900;">====WELCOME BACK====</p><br>
-        </p>
-    </body>
-</footer>
-                <div class="banner">
-  <img src="banner.jpg" alt="DaviannTech Banner" class="banner-img" height ="200" length ="700">
-                </div>
-    <p>
-        <b style= "color: white;">DESIGNED BY: David Chege.</b>
-    </p>
-<B style="text-align:center; color: rgb(244, 246, 248);">&copy;2025 ALL RIGHTS RESERVED</B>
+  <div class="section" id="contact">
+    <h3>Contact Me</h3>
+    <p><strong>WhatsApp:</strong> 0791 367540</p>
+    <button><a href="https://wa.me/+254791367540" target="_blank">Message on WhatsApp</a></button>
+    <p><strong>Email:</strong> davidchege974@gmail.com</p>
+    <button><a href="mailto:davidchege974@gmail.com">Send Email</a></button>
+  </div>
+
+  <footer>
+    <hr>
+    <p>==== WELCOME BACK ====</p>
+    <div class="banner">
+      <img src="banner.jpg" alt="DaviannTech Banner" class="banner-img">
+    </div>
+    <p class="credits"><strong>Designed by:</strong> David Chege &copy; 2025 All rights reserved</p>
+  </footer>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark-mode');
+    }
+  </script>
+</body>
+
 </html>
